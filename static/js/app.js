@@ -1,6 +1,6 @@
 function buildPlot(id) {
     // D3 library to read in `samples.json`
-    d3.json("data/samples.json").then((data) => {
+    d3.json("Data/samples.json").then((data) => {
         // console.log(data);
         
         // Horizontal bar chart with a dropdown menu 
@@ -80,7 +80,7 @@ function buildPlot(id) {
 // Function to get data
 function getInfo(id){
     // Read json file 
-    d3.json("data/samples.json").then((data) =>{
+    d3.json("Data/samples.json").then((data) =>{
         // Metadata info for the demographic panel 
         var metadata = data.metadata;
         // console.log(metadata);
